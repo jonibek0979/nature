@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 48px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.nav__item {
+    margin-left: 40px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav__item:last-child a {
+    padding: 10px 21.5px;
+    border-radius: 4px;
+    background: var(--greys-white, #FFF);
+    color: #606B74;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* .main?sfhuy */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,700&family=Rubik:wght@400;500;700;900&display=swap');
+
+.main {
+    padding-top: 226px;
+    padding-bottom: 226px;
+    background-image: url('/img/main__bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    /* background-position: center; */
+}
+
+
+.bg__shadow {
+    position: absolute;
+    width: 100%;
+    height: 67.8%;
+    background-color: #5b55554d;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.main__social {
+    position: absolute;
+    z-index: 3;
+    margin-top: -218px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 218px;
+    transform: rotate(90deg);
+}
+
+.main__social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.main__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.main__main {
+    max-width: 440px;
+
+}
+
+.main__text {
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.main__title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 12px;
+
+}
+
+.main__info a {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main__info i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+/* heroheroheroherohero */
+
+
+.hero {
+    padding-top: 64px;
+    padding-bottom: 57px;
+    background-color: #FFF;
+    position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,700&family=Rubik:wght@400;500;700;900&display=swap');
+
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__info {
+    max-width: 400px;
+}
+
+.hero__title {
+    color: var(--color-dark-green, #222F33);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hero__text {
+    width: 400px;
+    color: var(--greys-light-grey, #646D70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 13px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn {
+    padding: 10px 15.5px;
+    border-radius: 4px;
+    border: 1px solid var(--greys-light-grey, #646D70);
+    color: #606B74;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.hero__img {
+    margin-top: -150px;
+    position: relative;
+    z-index: 3;
+}
+
+.hero::after {
+    content: "";
+    display: block;
+    width: 43%;
+    height: 43%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #222F33;
+
+}
+
+
+/* .InnovatieInnovatie */
+
+.Innovatie {
+    padding-top: 72px;
+    padding-bottom: 81px;
+    background: #222F33;
+    position: relative;
+    cursor: pointer
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,700&family=Rubik:wght@400;500;700;900&display=swap');
+
+.Innovatie__title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    z-index: 3;
+}
+
+.Innovatie__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Innovatie__text {
+    max-width: 380px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-top: 8px;
+    position: relative;
+    z-index: 3;
+
+}
+
+/* HoutHoutHout */
+.Hout {
+    padding-top: 85px;
+    padding-bottom: 56px;
+    background: #FFF;
+    position: relative;
+}
+
+.Hout__hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Hout__img {
+    width: 50%;
+    position: relative;
+    z-index: 3;
+}
+
+.Hout__list {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 3;
+}
+
+.Hout__item {
+    max-width: 155px;
+    margin-top: 20px;
+
+}
+
+.Hout__titlee {
+    color: #222F33;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Hout__textt {
+    color: #646D70;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+/* footerfooter */
+.footer {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background: #222F33;
+    position: relative;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    z-index: 3;
+}
+.footer__logo{
+    margin-top: 15px;
+}
+.footer__item__item {
+    margin-left: 30px;
+}
+
+.footer__item a {
+    position: absolute;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.6;
+    text-decoration: none;
+}
